@@ -18,7 +18,7 @@
 }
 
 html{
-font-size: 62.5%;
+font-size: 100.5%;
 overflow-x: hidden;
 }
 
@@ -179,10 +179,10 @@ span {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 4 rem;
 }
 
-.services-container .services-box{
+.skills-container .skills-box{
     flex: 1 1 30rem;
     background: var(--second-bg-color);
     padding: 3rem 2rem 4rem;
@@ -192,23 +192,23 @@ span {
     transition: .5s ease;
 }
 
-.services-container .services-box:hover{
+.skills-container .skills-box:hover{
     border-color: var(--main-color);
     transform: scale(1.02);
 }
 
-.services-box i{
+.skills-box i{
     font-size: 7rem;
     color: var(--main-color);
 }
 
-.services-box h3{
-    font-size: 2.6rem;
+.skills-box h3{
+    font-size: 4 rem;
     color: whitesmoke;
 }
 
-.services-box p{
-    font-size: 1.6rem;
+.skills-box p{
+    font-size: 4 rem;
     margin: 1rem 0 3rem;
     color: azure;
 }
